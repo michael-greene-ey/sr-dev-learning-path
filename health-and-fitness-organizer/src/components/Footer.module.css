@@ -1,0 +1,16 @@
+.footerContainer {
+  background-color: black;
+  /* padding: 1% 0 1% 0; */
+}
+
+.logo {
+  font-size: xxx-large;
+  margin-top: 2px;
+  color: white;
+}
+
+.logoContainer {
+  display: flex;
+  /* align-items: center;
+  gap: 10px; */
+}

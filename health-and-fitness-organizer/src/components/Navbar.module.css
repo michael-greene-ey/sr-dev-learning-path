@@ -1,7 +1,57 @@
+.coName {
+}
+
+.logo {
+  font-size: xxx-large;
+  margin-top: 2px;
+}
+
+.logoContainer {
+  /* font-size: xx-large; */
+}
+
+.logoAndName {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .navbar {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  background-color: black;
+  color: white;
+  height: 50px;
+  padding: 0 1% 0 1%;
+  font-size: x-large;
+  font-weight: bolder;
+  font-style: italic;
+  font-variant: small-caps;
+}
+
+.navLinks {
+  display: flex;
+  gap: 50px;
+}
+
+.searchIcon {
+  color: blue;
+  margin: 2px;
+  position: absolute;
+}
+
+.searchNavInput {
   display: flex;
   flex-direction: row;
 }
 
-.navLinks {
+.searchNavInput input {
+  border-radius: 10px;
+  align-items: center;
+  border-style: none;
+  height: 25px;
+  text-indent: 17%;
+  outline: none;
+  width: 250px;
 }
