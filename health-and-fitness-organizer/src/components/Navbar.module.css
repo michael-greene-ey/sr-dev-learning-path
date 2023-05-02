@@ -1,13 +1,8 @@
-.coName {
-}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;600&family=Maven+Pro:wght@500&display=swap");
 
 .logo {
-  font-size: xxx-large;
+  font-size: 10px;
   margin-top: 2px;
-}
-
-.logoContainer {
-  /* font-size: xx-large; */
 }
 
 .logoAndName {
@@ -23,11 +18,8 @@
   background-color: black;
   color: white;
   height: 50px;
-  padding: 0 1% 0 1%;
-  font-size: x-large;
-  font-weight: bolder;
-  font-style: italic;
-  font-variant: small-caps;
+  padding: 0 1%;
+  font: italic bolder x-large "Maven Pro", sans-serif;
 }
 
 .navLinks {
@@ -43,7 +35,6 @@
 
 .searchNavInput {
   display: flex;
-  flex-direction: row;
 }
 
 .searchNavInput input {
@@ -51,7 +42,7 @@
   align-items: center;
   border-style: none;
   height: 25px;
-  text-indent: 17%;
+  text-indent: 15%;
   outline: none;
   width: 250px;
 }

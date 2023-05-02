@@ -12,11 +12,11 @@ const Navbar = () => {
         <span className={styles.coName}>Health & Fitness</span>
       </div>
       <div className={styles.navLinks}>
-        <span className={styles.links}>HOME</span>
-        <span className={styles.links}>HEALTH CONTENT</span>
-        <span className={styles.links}>TO DO's</span>
-        <span className={styles.links}>WORKOUT</span>
-        <span className={styles.links}>MEAL PLAN</span>
+        <span>HOME</span>
+        <span>HEALTH CONTENT</span>
+        <span>TO DO's</span>
+        <span>WORKOUT</span>
+        <span>MEAL PLAN</span>
       </div>
       <div className={styles.searchNavInput}>
         <input></input>
