@@ -1,10 +1,11 @@
 import Navbar from "./Navbar";
-import styles from "./Header.module.css";
+import Tagline from "./Tagline";
 
 const Header = () => {
   return (
-    <div className={styles.container}>
+    <div>
       <Navbar />
+      <Tagline />
     </div>
   );
 };

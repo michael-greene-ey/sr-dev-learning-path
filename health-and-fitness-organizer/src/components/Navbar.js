@@ -1,18 +1,26 @@
+import FitnessCenterIcon from "@mui/icons-material/FitnessCenter";
+import SearchIcon from "@mui/icons-material/Search";
 import styles from "./Navbar.module.css";
 
 const Navbar = () => {
   return (
     <div className={styles.navbar}>
-      <div>
-        <span>Logo</span>
-        <span>Health & Fitness</span>
+      <div className={styles.logoAndName}>
+        <span className={styles.logoContainer}>
+          <FitnessCenterIcon className={styles.logo} />
+        </span>
+        <span className={styles.coName}>Health & Fitness</span>
       </div>
       <div className={styles.navLinks}>
-        <span>Home</span>
-        <span>Health Content</span>
-        <span>To Do's</span>
-        <span>Workout</span>
-        <span>Meal Plan</span>
+        <span>HOME</span>
+        <span>HEALTH CONTENT</span>
+        <span>TO DO's</span>
+        <span>WORKOUT</span>
+        <span>MEAL PLAN</span>
+      </div>
+      <div className={styles.searchNavInput}>
+        <input></input>
+        <SearchIcon className={styles.searchIcon} />
       </div>
     </div>
   );
