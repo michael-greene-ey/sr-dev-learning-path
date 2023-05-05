@@ -65,7 +65,8 @@ const Footer = () => {
           <a href="#">Site Map</a>
         </div>
       </div>
-      <hr />
+
+      <hr className={styles.hr} />
       <div className={styles.copyright}>
         {copyright} 2023 Heath & Fitness, All rights reserved.
       </div>

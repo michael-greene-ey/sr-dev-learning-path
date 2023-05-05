@@ -1,11 +1,11 @@
 import Navbar from "./Navbar";
 import Tagline from "./Tagline";
+import styles from "./Header.module.css";
 
 const Header = () => {
   return (
-    <div>
+    <div className={styles.headerContainer}>
       <Navbar />
-      <Tagline />
     </div>
   );
 };
