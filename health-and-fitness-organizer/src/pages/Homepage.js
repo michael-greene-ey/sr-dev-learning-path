@@ -3,9 +3,9 @@ import CardHome from "../UI/CardHome";
 import workoutImg from "../Assests/images/workout.jpg";
 import healthContentImg from "../Assests/images/health-content.jpg";
 import styles from "./Homepage.module.css";
-import { bgcolor } from "@mui/system";
 
 const Homepage = () => {
+  //temp data
   const page = [
     {
       id: 1,
