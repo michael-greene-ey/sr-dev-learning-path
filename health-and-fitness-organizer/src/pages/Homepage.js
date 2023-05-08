@@ -1,7 +1,7 @@
 import Carousel from "react-bootstrap/Carousel";
 import CardHome from "../UI/CardHome";
-import workoutImg from "../Assests/images/workout.jpg";
-import healthContentImg from "../Assests/images/health-content.jpg";
+import workoutImg from "../assests/images/workout.jpg";
+import healthContentImg from "../assests/images/health-content.jpg";
 import styles from "./Homepage.module.css";
 
 const Homepage = () => {
@@ -25,20 +25,18 @@ const Homepage = () => {
   return (
     <div className={styles.homepage}>
       <Carousel variant="dark" interval={null} indicators={null}>
-        <Carousel.Item>
-          <CardHome
-            title={page[0].title}
-            description={page[0].description}
-            images={page[0].image}
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <CardHome
-            title={page[1].title}
-            description={page[1].description}
-            images={page[1].image}
-          />
-        </Carousel.Item>
+        {page.map((card) => {
+          console.log(card);
+          return (
+            <Carousel.Item>
+              <CardHome
+                title={card.title}
+                description={card.description}
+                images={card.image}
+              />
+            </Carousel.Item>
+          );
+        })}
       </Carousel>
     </div>
   );

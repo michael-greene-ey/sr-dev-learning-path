@@ -1,5 +1,4 @@
 import Navbar from "./Navbar";
-import Tagline from "./Tagline";
 import styles from "./Header.module.css";
 
 const Header = () => {
